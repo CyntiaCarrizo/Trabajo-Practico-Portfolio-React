@@ -21,36 +21,37 @@ La estructura del proyecto está pensada en componentes simples que se renderiza
 
 ---
 
-## 📁 Estructura principal (según tu repo)
+## 📁 Estructura principal 
+
+```text
 Trabajo-Practico-Portfolio-React/
 ├── public/
-│ ├── hero-image-home.jpg
-│ ├── Javascript.png
-│ ├── React.png
-│ └── vite.svg
+│   ├── hero-image-home.jpg
+│   ├── Javascript.png
+│   ├── React.png
+│   └── vite.svg
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ │ ├── Certificados.jsx
-│ │ ├── Contacto.jsx
-│ │ ├── Experiencia.jsx
-│ │ ├── Footer.jsx
-│ │ ├── Header.jsx
-│ │ ├── Idiomas.jsx
-│ │ ├── Main.jsx
-│ │ └── SobreMi.jsx
-│ ├── styles/
-│ │ ├── App.css
-│ │ ├── Contacto.css
-│ │ └── Variables.css
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── assets/
+│   ├── components/
+│   │   ├── Certificados.jsx
+│   │   ├── Contacto.jsx
+│   │   ├── Experiencia.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   ├── Idiomas.jsx
+│   │   ├── Main.jsx
+│   │   └── SobreMi.jsx
+│   ├── styles/
+│   │   ├── App.css
+│   │   ├── Contacto.css
+│   │   └── Variables.css
+│   ├── App.jsx
+│   └── main.jsx
 ├── package.json
 ├── vite.config.js
 ├── postcss.config.js
 ├── tailwind.config.js
 └── README.md
-
 ---
 
 ## ⚙️ Instalación y ejecución local
