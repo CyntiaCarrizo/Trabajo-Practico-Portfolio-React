@@ -16,8 +16,7 @@ La estructura del proyecto está pensada en componentes simples que se renderiza
 - JavaScript (ES6+)  
 - CSS personalizado (archivos `.css` en `/src/styles`)  
 - Node.js / npm (para instalar dependencias y correr scripts)
-
-> **Nota:** En este repositorio se usan estilos propios (CSS). Si quieres confirmar si se está usando Tailwind, revisá la raíz del proyecto en busca de `tailwind.config.js` o directivas de Tailwind (`@tailwind`) dentro de los `.css`. Si no existen, entonces no se está usando Tailwind.
+--Tailwind 
 
 ---
 
