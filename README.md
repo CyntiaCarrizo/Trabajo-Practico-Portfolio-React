@@ -1,16 +1,62 @@
-# React + Vite
+## 🧩 Descripción  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un **trabajo práctico desarrollado en React con Vite** como parte de la **Tecnicatura Universitaria en Programación**.  
+El objetivo es crear un **portfolio personal** que permita mostrar información del desarrollador, habilidades y proyectos, aplicando los conceptos de componentes, hooks, props y ruteo en React.  
 
-Currently, two official plugins are available:
+El diseño es **responsivo** y se trabajó utilizando **Tailwind CSS** para el manejo de estilos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologías utilizadas  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ **React** – Librería para la creación de interfaces de usuario.  
+- ⚡ **Vite** – Herramienta de build y servidor de desarrollo.  
+- 🎨 **Tailwind CSS** – Framework CSS utilitario para diseño responsivo.  
+- 🧹 **ESLint** – Linter para mantener un código limpio.  
+- 💻 **Node.js / npm** – Para la gestión de dependencias.  
+- 📄 **HTML5 / CSS3 / JavaScript (ES6+)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Instalación y ejecución local  
+
+Para clonar y ejecutar el proyecto en tu entorno local:
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/CyntiaCarrizo/Trabajo-Practico-Portfolio-React.git
+
+# Ingresar a la carpeta del proyecto
+cd Trabajo-Practico-Portfolio-React
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
+# Abrir el navegador en:
+# http://localhost:5173
+
+## ⚙️ Estructura del Proyecto  
+
+Trabajo-Practico-Portfolio-React/
+├── public/
+│   └── index.html            # Página HTML principal
+├── src/
+│   ├── App.jsx               # Componente raíz
+│   ├── main.jsx              # Punto de entrada del proyecto
+│   ├── components/           # Componentes reutilizables
+│   ├── pages/                # Secciones del portfolio
+│   ├── assets/               # Imágenes y recursos
+│   └── styles/               # Archivos de estilos
+├── package.json              # Dependencias y scripts
+├── tailwind.config.js        # Configuración de Tailwind
+├── postcss.config.js         # Configuración de PostCSS
+├── vite.config.js            # Configuración del entorno Vite
+└── README.md                 # Este archivo
+
+##  👩‍💻 Autora
+
+Desarrollado por Cyntia Carrizo
+- 📚 Tecnicatura Universitaria en Programación
